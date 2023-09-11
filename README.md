@@ -1,7 +1,7 @@
 # Podman-toolbox_Kali-image
 This Instructions will guide you to create a podman toolbox image of Kali-Linux
 
-1 - Create a file "dockerfile.kali" with following content
+1 - Create a file "podmanfile.kali" with following content
 *************************************************************
 FROM docker.io/kalilinux/kali-rolling:latest
 
@@ -20,7 +20,7 @@ RUN echo VARIANT_ID=container >> /etc/os-release
 CMD /bin/bash
 ******************************************************************
 
-2 - Use the following command "**podman build -t kali-toolbox -f dockerfile.kali**" to build from docker file
+2 - Use the following command "**podman build -t kali-toolbox -f podmanfile.kali**" to build from docker file
 
 3 - Create the toolbox container by running "**toolbox create -i localhost/kali-toolbox:latest**"
 
