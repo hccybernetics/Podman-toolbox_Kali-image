@@ -30,6 +30,8 @@ Now Lets enter the toolbox using "**toolbox enter kali-toolbox-latest**"
 Note : if you got error message like "unable to resolve host" add "**127.0.0.1    toolbox**" in /etc/hosts in your host pc
 
 This instructions can be used for other images also.
+************************************************************************
+
 
 
 REF : https://support.endlessos.org/en/dev/toolbox-debian
